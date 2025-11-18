@@ -56,7 +56,7 @@ Now that we know what's in our `data/` folder, we can get some info on this file
 
 ```{webr}
 #| autorun: false
-nanoparquet::parquet_info("data/titanic.parquet")
+nanoparquet::read_parquet_info("data/titanic.parquet")
 ```
 
 Let's get info about the column types in our file with `parquet_column_types`
